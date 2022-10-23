@@ -81,9 +81,6 @@
   "settings": {
     "import/resolver": {
       "eslint-import-resolver-custom-alias": {
-        "alias": {
-          "mantine-ts-vite": "../"
-        },
         "extensions": [
           ".js",
           ".ts",

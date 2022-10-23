@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --config vite.example.config.ts",
-    "build": "tsc && vite build --config vite.example.config.ts",
+    "build": "tsc --project tsconfig.example.json && vite build --config vite.example.config.ts",
     "preview": "vite preview --config vite.example.config.ts",
     "package": "tsc && vite build"
   },
