@@ -15,8 +15,12 @@ export default defineConfig({
   },
   plugins: [
     react(),
-    tsConfigPaths(),
-    dts(),
+    dts(
+      {
+        insertTypesEntry: true,
+        include: ['lib'],
+      },
+    ),
   ],
   build: {
     lib: {

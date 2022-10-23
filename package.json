@@ -1,5 +1,5 @@
 {
-  "name": "mantine-ts-vite",
+  "name": "remake-istoria",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "preview": "vite preview --config vite.example.config.ts",
     "package": "tsc && vite build"
   },
-  "types": "./dist/types/index.d.ts",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
